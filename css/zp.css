@@ -1,0 +1,98 @@
+/*title*/
+.title {
+    border-left: 0.2em solid rgba(37, 159, 94, 1);
+    margin-top: 1em;
+    height: 2em;
+    margin-left: 0.2em;
+}
+
+.title h2 {
+    margin-left: 0.6em;
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 0em;
+}
+
+/*banner*/
+.zpbn {
+    width: 97%;
+    margin-top: 1.4em;
+    margin-left: 1.2em;
+}
+
+.bn_text {
+    align-items: center;
+    position: relative;
+    bottom: 13em;
+}
+
+.bn_text p {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+/*内容*/
+.con_row {
+    margin-bottom: 2em;
+}
+
+.row_item {
+    align-items: center;
+    background: rgba(248, 248, 248, 1);
+    box-shadow: 0px 2px 5px 0px rgba(185, 185, 185, 0.5);
+    margin-top: -2em;
+    margin-bottom: 3.42em;
+    padding-bottom: 5.4em;
+}
+
+.item_left {
+    margin-left: 1.8em;
+}
+
+.row_item img {
+    width: 4.3em;
+    margin-top: 3.57em;
+}
+
+.row_item h3 {
+    font-size: 1.7em;
+    font-family: Source Han Sans SC;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 1);
+}
+
+.item_con {
+    margin-left: 4.42em;
+    margin-right: 4.42em;
+}
+
+.item_con h5 {
+    color: #259F5E;
+    font-size: 1em;
+}
+
+.item_con p {
+    color: #666666;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 0.5em;
+}
+
+.text_top{
+    margin-top: 2.8em !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .bn_text {
+        bottom: 11em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bn_text {
+        bottom: 8em;
+    }
+}
