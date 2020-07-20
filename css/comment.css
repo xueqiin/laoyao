@@ -11,6 +11,10 @@ html,body{margin: 0;padding: 0;font-family:Source Han Sans CN;}
     flex-direction: column;
 }
 
+.header{
+    justify-content: center;
+}
+
 .foot_menu a,.w_title{
     color:rgba(196,196,196,1);
 }

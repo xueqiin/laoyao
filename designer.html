@@ -17,14 +17,95 @@
 
     <link href="bootstrap3/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/comment.css" type="text/css" rel="stylesheet"/>
+    <link href="css/tj.css" type="text/css" rel="stylesheet"/>
     <script type="text/javascript" src="js/jquery.js"></script>
 
 </head>
 <body>
 <!--header-->
-<div id="header" class="container"></div>
+<div id="header" class="nav"></div>
 <!--header_end-->
 <!--  content  -->
+<div class="container">
+    <!--热门推荐-->
+    <div class="row flex_colu tuj">
+        <h3 class="title">热门设计师推荐</h3>
+        <div class="flex_row img_box">
+            <img src="images/ss1.png" class="mg-responsive img_ie img-rounded dis_left" />
+            <img src="images/ss2.png" class="mg-responsive img_ie img-rounded" />
+            <img src="images/ss3.png" class="mg-responsive img_ie img-rounded" />
+            <img src="images/ss4.png" class="mg-responsive img_ie img-rounded" />
+            <img src="images/ss5.png" class="mg-responsive img_ie img-rounded" />
+            <img src="images/ss6.png" class="mg-responsive img_ie img-rounded dis_right" />
+        </div>
+    </div>
+    <!--热门推荐_end-->
+
+    <!--设计师列表-->
+    <div class="row flex_colu ss_list">
+        <!--设计师-->
+        <div class="flex_row ssinfo">
+            <img src="images/icon_t.png" class="mg-responsive img_ie img-circle ticon" />
+            <div class="flex_colu info_con">
+                <h4 class="name">设计师xxx</h4>
+                <p class="address">所在地区：昆都仑区</p>
+                <p class="good">擅长类型：简约  中式  古典  奢华</p>
+            </div>
+            <div class="link_btn"><img src="images/link_rn.png"></div>
+        </div>
+        <!--作品-->
+        <div class="flex_row opus">
+            <img src="images/zp1.png" class="mg-responsive img_ie" />
+            <img src="images/zp2.png" class="mg-responsive img_ie" />
+            <img src="images/zp3.png" class="mg-responsive img_ie" />
+        </div>
+    </div>
+    <!--设计师列表_end-->
+
+    <!--设计师列表-->
+    <div class="row flex_colu ss_list">
+        <!--设计师-->
+        <div class="flex_row ssinfo">
+            <img src="images/icon_t.png" class="mg-responsive img_ie img-circle ticon" />
+            <div class="flex_colu info_con">
+                <h4 class="name">设计师xxx</h4>
+                <p class="address">所在地区：昆都仑区</p>
+                <p class="good">擅长类型：简约  中式  古典  奢华</p>
+            </div>
+            <div class="link_btn"><img src="images/link_rn.png"></div>
+        </div>
+        <!--作品-->
+        <div class="flex_row opus">
+            <img src="images/zp1.png" class="mg-responsive img_ie" />
+            <img src="images/zp2.png" class="mg-responsive img_ie" />
+            <img src="images/zp3.png" class="mg-responsive img_ie" />
+        </div>
+    </div>
+    <!--设计师列表_end-->
+
+    <!--设计师列表-->
+    <div class="row flex_colu ss_list">
+        <!--设计师-->
+        <div class="flex_row ssinfo">
+            <img src="images/icon_t.png" class="mg-responsive img_ie img-circle ticon" />
+            <div class="flex_colu info_con">
+                <h4 class="name">设计师xxx</h4>
+                <p class="address">所在地区：昆都仑区</p>
+                <p class="good">擅长类型：简约  中式  古典  奢华</p>
+            </div>
+            <div class="link_btn"><img src="images/link_rn.png"></div>
+        </div>
+        <!--作品-->
+        <div class="flex_row opus">
+            <img src="images/zp1.png" class="mg-responsive img_ie" />
+            <img src="images/zp2.png" class="mg-responsive img_ie" />
+            <img src="images/zp3.png" class="mg-responsive img_ie" />
+        </div>
+    </div>
+    <!--设计师列表_end-->
+</div>
+<!--更多-->
+<div class="row flex_row get_more" id="getmore"><img src="images/click_more.png" class="cl_more_btn" /></div>
 
 <!--  content_end  -->
 
@@ -35,6 +116,36 @@
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/footer.js"></script>
 <script type="text/javascript" src="js/load.js"></script>
+<script type="text/javascript">
+    $(function () {
+        /*加载更多*/
+        $("#getmore").click(function () {
+            let str='<!--设计师列表-->' +
+                '    <div class="row flex_colu ss_list">' +
+                '        <!--设计师-->' +
+                '        <div class="flex_row ssinfo">' +
+                '            <img src="images/icon_t.png" class="mg-responsive img_ie img-circle ticon" />' +
+                '            <div class="flex_colu info_con">' +
+                '                <h4 class="name">设计师xxx</h4>' +
+                '                <p class="address">所在地区：昆都仑区</p>' +
+                '                <p class="good">擅长类型：简约  中式  古典  奢华</p>' +
+                '            </div>' +
+                '            <div class="link_btn"><img src="images/link_rn.png"></div>' +
+                '        </div>' +
+                '        <!--作品-->' +
+                '        <div class="flex_row opus">\n' +
+                '            <img src="images/zp1.png" class="mg-responsive img_ie" />' +
+                '            <img src="images/zp2.png" class="mg-responsive img_ie" />' +
+                '            <img src="images/zp3.png" class="mg-responsive img_ie" />' +
+                '        </div>' +
+                '    </div>' +
+                '    <!--设计师列表_end-->';
+            for(let i=0;i<5;i++){
+                $(".container").append(str);
+            }
+        });
+    })
+</script>
 
 </body>
 </html>
