@@ -1,0 +1,87 @@
+/*news_list*/
+/*news_info*/
+.newt,.imgs,.con_box{
+    width: 100%;
+}
+
+.newt{
+    align-items: center;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+.title{
+    font-size:2.5em;
+    font-weight:bold;
+    color:rgba(0,0,0,1);
+    letter-spacing: 0.2em;
+}
+
+.time{
+    font-size:1.14em;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+    margin-top: 2em;
+}
+
+.imgs{
+    justify-content: space-around;
+    margin-bottom: 3em;
+    /*margin-left: 0.5em;*/
+}
+
+.nicon{
+    width: 25em;
+    margin-left: 1em;
+    margin-right: 1.8em;
+}
+
+.con_box{
+    margin-bottom: 13.4em;
+}
+
+.content{
+    font-size: 1.3em;
+    font-weight: 400;
+    color: rgba(102,102,102,1);
+    line-height: 2em;
+    text-indent: 2em;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .newt {
+        margin-top: 3em;
+    }
+    .time {
+        margin-top: 1em;
+    }
+    .nicon {
+        width: 20em;
+        margin-left: 2.8em;
+        margin-right: 0;
+    }
+    .con_box {
+        margin-bottom: 10em;
+        margin-left: 0.8em;
+    }
+    .content {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .newt {
+        margin-top: 2.6em;
+        margin-left: 2em;
+    }
+    .nicon {
+        width: 15em;
+        margin-left: 3em;
+        margin-right: 0;
+    }
+    .con_box {
+        margin-bottom: 8em;
+        margin-left: 0.8em;
+    }
+}
