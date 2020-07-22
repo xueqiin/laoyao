@@ -34,11 +34,6 @@ $(function () {
         $(this).addClass("case_active").siblings().removeClass("case_active");
     });
 
-    //更多跳转
-    $("#case_menu p:last").click(function () {
-        location.href="";
-    })
-
     //播放视频
     // 视频------视频截图 ~~ 视频播放状态 ~~
     const setMedia = function (video, scale = 0.8) {

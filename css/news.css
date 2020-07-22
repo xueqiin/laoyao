@@ -1,4 +1,116 @@
 /*news_list*/
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.list_item{
+    width: 100%;
+    margin-top: 4.2em;
+}
+
+.list_item2{
+    width: 100%;
+}
+.row_box{
+    justify-content: space-between;
+    background:rgba(248,248,248,1);
+}
+
+.row_box2{
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+/*left*/
+.left_box{
+    align-items: initial;
+    margin: 1.42em 16px 31px 1.42em;
+}
+
+.headline{
+    font-size:1.42em;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    margin-bottom: 1.42em;
+    margin-top: 0;
+}
+
+.biaopan{
+    margin-bottom: 1.2em;
+}
+
+.biaopan img{
+    width: 1.7em;
+}
+
+.btime{
+    font-size:1.2em;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    margin-left: 0.5em;
+}
+
+.ninfo{
+    text-indent: 2em;
+    font-size:1em;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:1.5em;
+}
+
+.link_info{
+    display: inline-block;
+    width:8em;
+    font-size:1.1em;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    background:rgba(37,159,94,1);
+    margin-top: 0.21em;
+    text-align: center;
+    line-height: 2.14em;
+}
+
+/*right*/
+.right_box{
+    margin-top: 1.42em;
+    margin-right: 1.42em;
+    margin-bottom: 2.2em;
+}
+
+.right_box img{
+    width:23.78em;
+}
+
+/*分页*/
+.pager{
+    margin-top: 3.57em;
+    margin-bottom: 3.57em;
+}
+.page_ul li a{
+    border: 0;
+    border-radius: 0;
+    background:rgba(230,230,230,1);
+    font-size:1.3em;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+}
+
+.page_ul li{
+    margin-left: 0.35em;
+    margin-right: 0.35em;
+}
+
+.pagination-lg>li:last-child>a, .pagination-lg>li:last-child>span,.pagination-lg>li:first-child>a, .pagination-lg>li:first-child>span {
+    border-radius: 0;
+}
+
+.page_active,.page_active a{
+    background:rgba(37,159,94,1) !important;
+    color: #ffffff !important;
+}
+
 /*news_info*/
 .newt,.imgs,.con_box{
     width: 100%;
@@ -27,7 +139,6 @@
 .imgs{
     justify-content: space-around;
     margin-bottom: 3em;
-    /*margin-left: 0.5em;*/
 }
 
 .nicon{
@@ -71,17 +182,77 @@
 }
 
 @media screen and (max-width: 768px) {
+    .list_item{
+        margin-left: 0.4em;
+        margin-top: 3.2em
+    }
+
+    .headline {
+        font-size: 1.2em;
+        margin-bottom: 1.1em;
+    }
+
+    .biaopan img {
+        width: 1.5em;
+    }
+
+    .biaopan {
+        margin-bottom: 0.5em;
+    }
+
+    .btime {
+        font-size: 1em;
+    }
+
+    .ninfo {
+        font-size: 0.5em;
+        line-height: 1.5em;
+    }
+
+    .link_info {
+        font-size: 0.5em;
+    }
+
+    .right_box img{
+        width:18em;
+    }
+
+    .page_ul li{
+        margin-left: 0.15em;
+        margin-right: 0.15em;
+    }
+
+    .pager {
+        margin-top: 2.5em;
+        margin-bottom: 2.5em;
+        margin-right: 2em;
+    }
+
+
+
+
+
+
+
+
+
+
     .newt {
         margin-top: 2.6em;
         margin-left: 2em;
     }
+
     .nicon {
         width: 15em;
         margin-left: 3em;
         margin-right: 0;
     }
+
     .con_box {
         margin-bottom: 8em;
         margin-left: 0.8em;
     }
+
+
+
 }
