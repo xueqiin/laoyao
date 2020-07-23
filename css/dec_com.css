@@ -215,3 +215,86 @@
     background:rgba(37,159,94,1) !important;
     color: #ffffff !important;
 }
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .com_logo {
+        width: 7em;
+        height: 7em;
+        margin: 1em 0 1em 1em;
+    }
+    .com_info {
+        margin-left: 0.5em;
+        width: 48%;
+    }
+    .com_name {
+        font-size: 1.2em;
+    }
+    .tj {
+        margin-top: 0.1em;
+    }
+    .tj span {
+        font-size: 1em;
+    }
+    .star{
+        width: 0.8em;
+        height: 0.8em;
+        margin-right: 0.1em;
+    }
+    .colandp {
+        margin-top: 0.3em;
+    }
+    .coll_img {
+        width: 0.8em;
+        height: 0.8em;
+        margin-top: 0.23em;
+        margin-right: 0.3em;
+    }
+    .row_first span {
+        font-size: 0.8em;
+    }
+    .address img {
+        width: 0.7em;
+        height: 0.9em;
+    }
+
+    .address span {
+        font-size: 0.5em;
+    }
+
+    .xuan_img {
+        margin-left: 1.1em;
+    }
+
+    .btns span {
+        font-size: 1em;
+    }
+
+    .green_btn,.withe_btn{
+        width: 4em;
+        height: 4em;
+        letter-spacing: 0.2em;
+    }
+
+    .green_btn {
+        margin-left: 1.1em;
+    }
+
+    .withe_btn {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .jzcase {
+        width: 17em;
+    }
+
+    .zw {
+        width: 17em;
+        height: 18em;
+    }
+
+}
