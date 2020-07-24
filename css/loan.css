@@ -1,0 +1,542 @@
+/*banner*/
+.ban_l {
+    width: 100%;
+    /*height:43.78571428571429em;*/
+    background: linear-gradient(90deg, rgba(49, 91, 239, 1), rgba(45, 114, 244, 1), rgba(51, 19, 214, 1));
+    justify-content: center;
+}
+
+.ban_left {
+    align-items: initial;
+    color: #ffffff;
+    letter-spacing: 0.5em;
+    margin-left: 3.5em;
+}
+
+.hug_title {
+    margin-top: 1.5em;
+    font-size: 4.2857em;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: rgba(233, 233, 233, 1);
+    margin-bottom: 0.7em;
+}
+
+.small_con {
+    font-size: 1.71em;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(233, 233, 233, 1);
+    margin-top: 1.2em;
+}
+
+.konw_btn {
+    width: 19.57em;
+    margin-top: 4.5em;
+}
+
+.ban_img {
+    width: 35.92em;
+    margin-left: 9.928571em;
+    margin-top: 4.928em;
+    margin-bottom: 11.857em;
+}
+
+/*表单*/
+.form_box {
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0.2em 1em 0.2em rgba(0, 55, 201, 0.1);
+    border-radius: 1em;
+    align-items: center;
+    position: relative;
+    top: -9em;
+    z-index: 1;
+}
+
+.form_name {
+    font-size: 3.57em;
+    font-family: Source Han Sans SC;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 1);
+    letter-spacing: 0.3em;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+.form_name::after {
+    content: '';
+    width: 20em;
+    height: 0.01em;
+    display: block;
+    margin: 0.3em auto;
+    border-bottom: 0.02em solid rgba(51, 51, 51, 1);
+}
+
+.form_sub {
+    border: 0;
+    width: 88%;
+}
+
+.f_row {
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.inbox {
+    width: 50%;
+    justify-content: space-between;
+}
+
+.user_title {
+    width: 30%;
+    font-size: 1.285em;
+    font-family: Source Han Sans SC;
+    font-weight: bold;
+    color: rgba(102, 102, 102, 1);
+    letter-spacing: 0.3em;
+}
+
+.user_in {
+    width: 22.78em !important;
+    height: 3em;
+}
+
+.clud {
+    margin-left: 5em;
+}
+
+.ban_bottome {
+    align-items: center;
+}
+
+.sub_btn {
+    border: 0;
+    background: linear-gradient(90deg, rgba(52, 199, 248, 1), rgba(50, 155, 244, 1));
+    border-radius: 1.42em;
+    color: #ffffff;
+    font-size: 1.1em;
+    font-family: Source Han Sans SC;
+    font-weight: 500;
+    padding: 0.7em 3em 0.7em 3em;
+    margin-top: 3.5em;
+}
+
+.ban_bottome p {
+    margin-top: 1.57em;
+    margin-bottom: 2.64em;
+    font-size: 0.85em;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(255, 0, 0, 1);
+}
+
+/*介绍*/
+.intro {
+    width: 100%;
+    justify-content: center;
+    margin-top: -1.6em;
+    align-items: center;
+    margin-bottom: 7em;
+}
+
+.sam_tit,.apply .sam_tit,.bank .sam_tit {
+    font-size: 2.14em;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgba(64, 64, 64, 1);
+    margin-top: 3em;
+}
+
+.title_line,.apply .title_line,.bank .title_line {
+    width: 4.28em;
+    height: 0.1em;
+    background: rgba(7, 96, 147, 1);
+    margin-top: -0.3em;
+}
+
+.fu_title,.apply .fu_title,.bank .fu_title {
+    font-size: 1.85em;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 0.8em;
+    letter-spacing: 0.1em;
+}
+
+.pro_con {
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 4.71em;
+}
+
+.pro_item {
+    width: 33%;
+    align-items: center;
+}
+
+.pro_item img {
+    width: 4.42em;
+}
+
+.h3_item {
+    font-size: 1.42em;
+    font-weight: bold;
+    color: rgba(21, 19, 19, 1);
+    margin-top: 1.5em;
+}
+
+.pro_item p {
+    font-size: 1.14em;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+}
+
+.pro_item p:nth-child(3) {
+    margin-top: 1.14em;
+}
+
+.pro_item p:nth-child(4) {
+    margin-top: -0.7em;
+}
+
+.pro_item_dis {
+    margin-left: 19em;
+    margin-right: 19em;
+}
+
+/*申请*/
+.apply {
+    width: 100%;
+    align-items: center;
+    background: rgba(248, 248, 248, 1);
+}
+
+.lic {
+    width: 63%;
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+.txt_exp {
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.liu_exp {
+    padding: 0.8em 2em 0.8em 2em;
+    border: 0.1em solid rgba(181, 181, 181, 1);
+    border-radius: 0.7em;
+    font-size: 1.42em;
+    font-family: Source Han Sans SC;
+    font-weight: 400;
+    color: rgba(102,102,102,1);
+    line-height: 1.7em;
+}
+
+.liu_img{
+    margin-left: 5em;
+    margin-top: 3.7em;
+}
+
+.liu_exp_txt{
+    font-size:1.42em;
+    font-family:Source Han Sans SC;
+    font-weight:bold;
+    color:rgba(21,19,19,1);
+    line-height: 1.7em;
+    letter-spacing: 0.5em;
+    margin-top: 1.3em;
+}
+
+.dis1{
+    margin-left: 1.3em;
+}
+
+.dis2{
+
+}
+
+.dis3{
+
+}
+
+.tu_text{
+    width: 45.8%;
+    position: relative;
+    justify-content: space-between;
+    left: 22.1em;
+    top: -12em;
+}
+
+.tu_text span{
+    font-size:1.42em;
+    font-family:Source Han Sans SC;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    letter-spacing: 0.1em;
+}
+
+/*bank*/
+.bank{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+    padding-left: 4em;
+}
+
+.bank_img{
+    width: 23.42em;
+    height: 4.42em;
+}
+
+.user_tre_r{
+    width: 28%;
+}
+
+@media screen and (max-width: 2560px) {
+    .lic {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 1980px) {
+    .lic {
+        width: 63%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hug_title {
+        font-size: 3em;
+    }
+    .small_con {
+        font-size: 1.5em;
+    }
+    .konw_btn {
+        width: 13em;
+        margin-top: 2em;
+    }
+    .ban_img {
+        width: 25em;
+        margin-left: 9em;
+        margin-top: 3em;
+        margin-bottom: 8em;
+    }
+    .form_box {
+        width: 86%;
+        top: -6em;
+        margin-left: 4.2em;
+    }
+
+    .form_name {
+        font-size: 2.5em;
+        padding-top: 0.5em;
+    }
+    .form_name::after {
+        width: 20.3em;
+        margin: 0.1em auto;
+    }
+    .user_title {
+        width: 28%;
+        font-size: 1em;
+        letter-spacing: 0.1em;
+    }
+    .user_in {
+        width: 16em !important;
+        height: 2.3em;
+    }
+    .user_tre_r{
+        width: 25% !important;
+    }
+    .sub_btn {
+        padding: 0.5em 2.5em 0.5em 2.5em;
+        margin-top: 2.5em;
+    }
+    .intro {
+        margin-top: -4em;
+        margin-bottom: 5em;
+    }
+    .pro_item img {
+        width: 3em;
+    }
+    .h3_item {
+        font-size: 1.3em;
+        margin-top: 1em;
+    }
+    .pro_item p:nth-child(3) {
+        margin-top: 0.8em;
+        margin-left: 4.7em;
+    }
+    .pro_item p {
+        font-size: 0.8em;
+    }
+    .pro_con {
+        width: 88%;
+        justify-content:space-between;
+        margin-top: 3em;
+    }
+    .pro_item p {
+        width: 12em;
+    }
+    .pro_item_dis {
+        margin-left: 8.2em;
+        margin-right: 9em;
+    }
+    .lic {
+        width: 83%;
+        margin-top: 2em;
+    }
+    .liu_img {
+        margin-left: 6em;
+        margin-top: 2em;
+        width: 46em;
+    }
+    .tu_text{
+        width: 44%;
+        left: 15em;
+        top: -10.5em;
+    }
+    .txt_exp {
+        padding-left: 3em;
+        padding-right: 5em;
+    }
+    .bank_img {
+        width: 20em;
+        height: 3.5em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hug_title {
+        font-size: 2.5em;
+    }
+    .small_con {
+        font-size: 1.2em;
+    }
+    .konw_btn {
+        width: 10em;
+        margin-top: 1em;
+    }
+    .ban_img {
+        width: 18em;
+        margin-left: 7em;
+        margin-top: 3em;
+        margin-bottom: 5.5em;
+    }
+    .form_box {
+        width: 89%;
+        top: -4em;
+        margin-left: 3em;
+    }
+
+    .form_name {
+        font-size: 1.8em;
+    }
+    .form_name::after {
+        width: 22.5em;
+    }
+    .user_title {
+        width: 28%;
+        font-size: 0.8em;
+    }
+    .user_in {
+        width: 12em !important;
+    }
+    .user_tre_r{
+        width: 23.2% !important;
+    }
+    .sub_btn {
+        padding: 0.25em 2em 0.25em 2em;
+        margin-top: 1.5em;
+    }
+    .ban_bottome p {
+        margin-top: 1em;
+        margin-bottom: 2em;
+        font-size: 0.5em;
+    }
+    .intro {
+        margin-top: -6em;
+        margin-bottom: 3em;
+    }
+
+    .sam_tit {
+        font-size: 1.8em;
+        margin-left: 1.4em;
+    }
+    .title_line {
+        margin-left: 2.7em;
+    }
+    .fu_title {
+        font-size: 1.3em;
+        margin-top: 0.5em;
+        margin-left: 2.1em;
+    }
+    .pro_item_dis {
+        margin-left: 3em;
+        margin-right: 2em;
+    }
+
+    .liu_exp {
+        padding: 0.5em 1.5em 0.5em 1.5em;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .apply .sam_tit{
+        margin-left: 0em;
+        margin-top: 2em;
+    }
+    .apply .title_line{
+        margin-left: 0.2em;
+    }
+    .apply .fu_title {
+        font-size: 1.3em;
+        margin-top: 0.5em;
+        margin-left: 0em;
+    }
+    .txt_exp {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+    .liu_img {
+        margin-left: 4em;
+        width: 36em;
+    }
+    .tu_text {
+        width: 44.5%;
+        left: 11.6em;
+        top: -6.5em;
+    }
+    .tu_text span {
+        font-size: 1em;
+    }
+    .dis1 {
+        margin-left: 0.5em;
+    }
+    .liu_exp_txt {
+        font-size: 1em;
+        margin-top: 0.5em;
+    }
+    .lic{
+        margin-bottom: 1em;
+    }
+    .bank .sam_tit {
+        margin-left: -1em;
+    }
+    .bank .title_line{
+        margin-left: -2em;
+    }
+    .bank .fu_title {
+        margin-left: -1.5em;
+    }
+    .pro_con {
+        margin-top: 2em;
+    }
+    .bank_img {
+        width: 13em;
+        height: 2.3em;
+    }
+}
