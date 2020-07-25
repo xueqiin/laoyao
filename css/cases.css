@@ -110,9 +110,62 @@
     color: #ffffff !important;
 }
 
+/*案例展示*/
+.show_big{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -2em;
+}
+
+.big{
+    width: 100%;
+}
+
+.sliders{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2em;
+    background:rgba(244,244,244,1);
+    position: relative;
+}
+
+.slider_box{
+    width: 94%;
+}
+
+.slider_con{
+    margin-top: 1.35em;
+    margin-bottom: 1.35em;
+}
+
+.btn_left{
+    margin-left: -0.5em;
+}
+
+.btn_right{
+    margin-right: -0.5em;
+}
+
+.small_icon{
+    width: 7.1em;
+}
+
+
 @media screen and (max-width: 1024px) {
     .thum {
         width: 15em;
+    }
+    .small_icon{
+        width: 6em;
+    }
+    .btn_left{
+        margin-left: -0.8em;
+    }
+
+    .btn_right{
+        margin-right: -0.8em;
     }
 }
 
@@ -151,5 +204,19 @@
         margin-top: 2.5em;
         margin-bottom: 2.5em;
         margin-right: 2em;
+    }
+
+    .show_big {
+        margin-top: 0em;
+    }
+    .small_icon {
+        width: 4.5em;
+    }
+    .btn_left{
+        margin-left: -1em;
+    }
+
+    .btn_right{
+        margin-right: -1em;
     }
 }

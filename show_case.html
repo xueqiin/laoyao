@@ -17,7 +17,10 @@
 
     <link href="bootstrap3/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/comment.css" type="text/css" rel="stylesheet"/>
+    <link href="css/cases.css" type="text/css" rel="stylesheet"/>
+    <link href="css/swiper.min.css" rel="stylesheet"/>
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
 
 </head>
 <body>
@@ -25,7 +28,35 @@
 <div id="header" class="nav"></div>
 <!--header_end-->
 <!--  content  -->
+<div class="container">
+    <!--position-->
+    <div class="webposition">首页>>优秀设计案例>>主标题内容介绍</div>
 
+    <div class="flex_colu row show_big">
+        <img src="images/case/img1.png" class="big mg-responsive img_ie" />
+    </div>
+    <!--slider-->
+    <div class="row sliders">
+        <div class="swiper-container slider_box">
+            <div class="swiper-wrapper slider_con">
+                <div class="swiper-slide"><img src="images/case/thumb/icon1.png" class="small_icon mg-responsive img_ie" /></div>
+                <div class="swiper-slide"><img src="images/case/thumb/icon2.png" class="small_icon mg-responsive img_ie" /></div>
+                <div class="swiper-slide"><img src="images/case/thumb/icon3.png" class="small_icon mg-responsive img_ie" /></div>
+                <div class="swiper-slide"><img src="images/case/thumb/icon4.png" class="small_icon mg-responsive img_ie" /></div>
+                <div class="swiper-slide"><img src="images/case/thumb/icon5.png" class="small_icon mg-responsive img_ie" /></div>
+                <div class="swiper-slide"><img src="images/case/thumb/icon6.png" class="small_icon mg-responsive img_ie" /></div>
+                <div class="swiper-slide"><img src="images/case/thumb/icon7.png" class="small_icon mg-responsive img_ie" /></div>
+                <div class="swiper-slide"><img src="images/case/thumb/icon8.png" class="small_icon mg-responsive img_ie" /></div>
+                <div class="swiper-slide"><img src="images/case/thumb/icon9.png" class="small_icon mg-responsive img_ie" /></div>
+                <div class="swiper-slide"><img src="images/case/thumb/icon10.png" class="small_icon mg-responsive img_ie" /></div>
+            </div>
+        </div>
+        <div class="swiper-button-prev swiper-button-black btn_left"></div>
+        <div class="swiper-button-next swiper-button-black btn_right"></div>
+    </div>
+
+
+</div>
 <!--  content_end  -->
 
 <!--  foot  -->
@@ -35,6 +66,27 @@
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/footer.js"></script>
 <script type="text/javascript" src="js/load.js"></script>
+<script type="text/javascript">
+    /*图片数据组*/
+    var img_arr=[""];
+    var mySwiper = new Swiper('.swiper-container', {
+        speed:300,
+        autoplay: false,//可选选项，自动滑动
+        loop : false,
+        slidesPerView : 9,
+        spaceBetween : 29,
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }
+    })
 
+    $(function () {
+        $(".swiper-slide").click(function () {
+            $(".big").attr("src","images/case/img"+($(this).index()+1)+".png");
+        })
+    })
+</script>
 </body>
 </html>
