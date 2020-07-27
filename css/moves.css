@@ -1,0 +1,292 @@
+/*站内位置*/
+.webposition {
+    font-size: 1.42em;
+    font-family: Source Han Sans CN;
+    font-weight: 600;
+    color: rgba(87, 87, 87, 1);
+    margin-top: 1.35em;
+    margin-bottom: 2.7em;
+}
+
+/*列表*/
+.lg_box{
+    width: 100%;
+}
+
+.lg_item{
+    margin-bottom: 10em;
+}
+
+.m_title{
+    width: 100%;
+}
+
+.le_line{
+    width:0.28em;
+    height:2em;
+    background:rgba(37,159,94,1);
+}
+
+.m_l_title{
+    font-size:2em;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    margin-left: 1em;
+    margin-top: -0.2em;
+}
+
+/*list*/
+.item_box{
+    margin-top: 2.7em;
+    justify-content: space-between;
+}
+
+/*left*/
+.m_i_left{
+    width: 42em;
+    border-radius:3px 3px 0px 0px;
+    background:rgba(248,248,248,1);
+}
+
+.imgs{
+    width: 42em;
+    height: 26em;
+}
+
+.left_thumb{
+    width: 100%;
+    height: 100%;
+    border-radius:3px 3px 0px 0px;
+}
+
+.play1{
+    width: 7.28em;
+    position: relative;
+    margin-top: -29em;
+    margin-left: 17em;
+}
+
+.summary{
+    margin-left: 1.78em;
+    margin-right: 1.78em;
+    margin-top: 0.1em;
+    cursor: pointer;
+}
+
+.move_name{
+    font-size:2.14em;
+    font-weight:bold;
+    color:rgba(51,54,63,1);
+
+}
+.move_con{
+    font-size:1em;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    line-height:1.3em;
+    margin-top: 1.7em;
+}
+.left_bottom{
+    justify-content: space-between;
+    margin: 1.5em 2.3em 1.21em 1.78em;
+}
+
+.bo_num,.bo_name{
+    font-size:20px;
+    font-weight:400;
+}
+
+.bo_num{
+    color:rgba(37,159,94,1);
+}
+.bo_name{
+    color: #999999;
+}
+
+/*right*/
+.m_i_right{
+
+}
+
+.ri_row{
+    justify-content: space-between;
+}
+
+.one_box{
+    width: 18em;
+    background:rgba(248,248,248,1);
+    border-radius:3px 3px 0px 0px;
+}
+
+.ri_row .one_box:nth-child(1){
+    margin-right: 1.71em;
+}
+
+.s_imgs{
+    width: 100%;
+}
+
+.s_thum{
+    width: 100%;
+}
+
+.play2{
+    position: relative;
+    margin-top: -13em;
+    margin-left: 7em;
+}
+
+.txt_s_name{
+    font-size:1.28em;
+    font-weight:400;
+    color:rgba(51,54,63,1);
+    margin-left: 1.3em;
+    margin-bottom: 1.35em;
+    margin-top: -0.1em;
+}
+
+.line_txt{
+    margin-left: 1.71em;
+    margin-right: 1.71em;
+    border-bottom: 0.1em dashed rgba(230,230,230,1);
+    font-weight:400;
+}
+
+.s_txt{
+    margin-left: 1.71em;
+    margin-right: 1.71em;
+    justify-content: space-between;
+}
+
+.s_r_txt{
+    margin-top: 1.35em;
+    margin-bottom: 1.14em;
+}
+
+.s_r_txt span{
+    font-size:1em;
+    font-weight:400;
+}
+
+.s_r_txt span:nth-child(1){
+    color: #259F5E;
+}
+.s_r_txt span:nth-child(2){
+    color:#999999;
+}
+
+.dis_row{
+    margin-top: 1.78em;
+}
+
+/*详情*/
+.con_vodie{
+    justify-content: space-between;
+}
+
+.vodie_show{
+
+}
+
+.play_v{
+
+}
+
+.link_us{
+
+}
+
+.glyphicon-ok:before {
+    content: "㎡";
+}
+
+.btn-success{
+    background:rgba(93,158,124,1);
+}
+
+.vodie_list{
+
+}
+
+@media screen and (max-width: 1024px) {
+    .lg_item {
+        margin-bottom: 6em;
+    }
+    .m_i_left {
+        width: 35em;
+    }
+    .imgs {
+        width: 35em;
+        height: 20em;
+    }
+    .one_box {
+        width: 15em;
+    }
+    .ri_row .one_box:nth-child(1) {
+        margin-right: 1em;
+    }
+    .play1 {
+        margin-top: -22em;
+        margin-left: 14em;
+    }
+    .play2 {
+        margin-top: -11em;
+        margin-left: 5em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .webposition {
+        margin-bottom: 2em;
+    }
+    .lg_item {
+        margin-bottom: 3em;
+    }
+    .m_i_left {
+        width: 27em;
+    }
+    .imgs {
+        width: 27em;
+        height: 17em;
+    }
+    .one_box {
+        width: 11em;
+    }
+    .ri_row .one_box:nth-child(1) {
+        margin-right: 1em;
+    }
+    .play1 {
+        width: 6em;
+        margin-top: -19em;
+        margin-left: 11em;
+    }
+    .move_name {
+        font-size: 1.5em;
+        margin-top: 0.5em;
+    }
+    .move_con {
+        margin-top: 1em;
+        line-height: 1.5em;
+    }
+    .left_bottom {
+        margin: 0.5em 2.3em 0.5em 1.78em;
+    }
+    .play2 {
+        margin-top: -8em;
+        margin-left: 4em;
+        width: 3em;
+    }
+
+    .txt_s_name {
+        margin-left: 1em;
+        margin-bottom: 1.2em;
+    }
+    .line_txt {
+        margin-left: 1.2em;
+        margin-right: 1.2em;
+    }
+    .s_txt {
+        margin-left: 1.2em;
+        margin-right: 1.2em;
+    }
+}

@@ -123,8 +123,9 @@
 }
 
 .tv_item .video {
-    height: 48em;
+    /*height: 48em;*/
     margin-top: 2em;
+    width: 28em;
 }
 
 .tv_item .btn, .tv_item_dis .btn {
@@ -148,10 +149,10 @@
     filter: none;
 }
 
-.swiper-slide-active video{
+.swiper-slide-active img{
     position: relative;
-    height: 52em !important;
-    margin-top: 0 !important;
+    width: 30em !important;
+    margin-top: 0.1em !important;
     position: relative;
     margin-bottom: 20px;
     filter: brightness(60%);
@@ -313,13 +314,16 @@
 
     /*TV*/
     .tv_item .video {
-        height: 43em;
+        width: 25em;
     }
 
-    .swiper-slide-active video{
-        height: 47em !important;
-        margin-top: 0em !important;
-        margin-left: -1em;
+    .swiper-slide-active img{
+        width: 28em !important;
+        margin-top: -1em !important;
+    }
+
+    .tv_item .btn, .tv_item_dis .btn {
+        left: 54%;
     }
 
     /*choose*/
@@ -385,14 +389,13 @@
 
     /*TV*/
     .tv_item .video {
-        height: 33em;
+        width: 20em;
     }
 
-    .swiper-slide-active video{
-        height: 38em !important;
-        margin-top: -0.4em !important;
-        position: relative;
+    .swiper-slide-active img{
+        margin-top: 0.5em !important;
         margin-left: -1em;
+        width: 22em !important;
     }
 
     .swiper-button-next:after, .swiper-button-prev:after {
