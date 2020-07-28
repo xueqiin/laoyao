@@ -181,31 +181,229 @@
 
 /*详情*/
 .con_vodie{
+    width: 100%;
     justify-content: space-between;
+    margin-top: -2em;
 }
 
 .vodie_show{
-
 }
 
-.play_v{
-
+.video_top{
+    background-color: #F8F8F8;
 }
+
+.titles{
+    margin-left: 2.42em;
+    width: 57em;
+    justify-content: space-between;
+}
+
+.video_name{
+    font-size:2.14em;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+
+.colls{
+    margin-top: 2em;
+}
+
+.colls span{
+    font-size:1em;
+    font-weight:300;
+    color:rgba(87,87,87,1);
+}
+
+.colls img{
+    width: 1em;
+    height: 1em;
+    margin-top: 0.3em;
+    margin-left: 0.42em;
+}
+
+/*视频播放*/
+.play_v {
+    width: 57em;
+    height: 36.5em;
+    background-color: rgba(0,0,0,0.7);
+    margin: 2.42em;
+}
+
+.video_main {
+    width: 100%;
+    height: 100%;
+}
+
+.contrs {
+    width: 57em;
+    height: 3.8em;
+    position: relative;
+    margin-top: -4.1em;
+}
+
+.pro_box {
+    height: 0.28em;
+    background:linear-gradient(0deg,rgba(71,70,70,1),rgba(236,236,236,1));
+    cursor: pointer;
+}
+
+.pro_play {
+    width: 0px;
+    height: 0.28em;
+    line-height: 0.28em;
+    background:rgba(37,159,94,1);
+}
+
+.pro_icon{
+    display: inline-block;
+    position: relative;
+    width:1.5em;
+    height:1.5em;
+    background:rgba(37,159,94,1);
+    border-radius:50%;
+    margin-top: -0.7em;;
+}
+
+.pro_dibu {
+    height: 0.28em;
+    background:linear-gradient(0deg,rgba(71,70,70,1),rgba(236,236,236,1));
+}
+
+.cenplay{
+    position: relative;
+    margin-top: -41.5em;
+    margin-left: 25.5em;
+    width: 7.28em;
+    height: 7.28em;
+}
+
+.btns{
+    justify-content: space-between;
+    margin-left: 1.64em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.btns img{
+    width: 1.4em;
+    height: 1.4em;
+    margin-right: 1.57em;
+}
+
+.left_btns{
+    justify-content: initial;
+}
+
+.right_btns{
+    justify-content: initial;
+}
+
+.replay{
+    width: 2em !important;
+    height: 2em !important;
+    margin-top: -0.3em !important;
+}
+/*视频播放结束*/
 
 .link_us{
+    width: 61.84em;
+    margin-top: 2.42em;
+    background: url("../images/link_us_back.png") no-repeat;
+    background-size:100% auto;
+}
 
+.link_form{
+    width: 18.85em;
+    align-items: center;
+    margin-top: 7.6em;
+    margin-bottom: 3.2em;
+    margin-left: 33.5em;
+}
+
+.inrow{
+    width: 100%;
+}
+
+.inrow input{
+    border-radius: 0;
+    border: 0.01em solid #707070;
+    font-size:1em;
+    font-weight:300;
+    color:rgba(79,79,79,1);
+}
+
+.inrow input::-webkit-input-placeholder {
+    color:rgba(79,79,79,1);
 }
 
 .glyphicon-ok:before {
     content: "㎡";
+    margin-right: 2em;
 }
 
 .btn-success{
     background:rgba(93,158,124,1);
+    border-radius: 2em;
 }
 
-.vodie_list{
+.sub_link{
+    width:5em;
+    background:rgba(93,158,124,1);
+    border-radius:10px;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
 
+/*right*/
+
+.vodie_list{
+    width: 18.5em;
+    margin-top: -1em;
+    margin-left: 2em;
+}
+
+.right_more{
+    width: 17.5em;
+    font-size:1.42em;
+    font-weight:600;
+    letter-spacing: 0.1em;
+    color:rgba(87,87,87,1);
+}
+
+.more_list{
+    margin-top: 2.35em;
+}
+
+.video_list{
+    width: 100%;
+    background:rgba(248,248,248,1);
+    margin-bottom: 1.24em;
+}
+
+.right_thumb{
+    width: 100%;
+    border-radius:0.21em 0.21em 0 0;
+}
+
+.right_play{
+    position: relative;
+    width: 3.92em;
+    margin-top: -13em;
+    margin-left: 7em;
+}
+
+.video_list p{
+    font-size:1.35em;
+    font-weight:550;
+    color:rgba(51,54,63,1);
+    margin-left: 1.85em;
+    margin-top: -2em;
+    margin-bottom: 1em;
+    display: inline-block;
+    letter-spacing: 0.05em;
 }
 
 @media screen and (max-width: 1024px) {
@@ -232,6 +430,54 @@
     .play2 {
         margin-top: -11em;
         margin-left: 5em;
+    }
+    /*视频详细页*/
+    .titles {
+        width: 47em;
+    }
+    .play_v {
+        width: 47em;
+        height: 30em;
+    }
+    .contrs {
+        width: 47em;
+    }
+    .cenplay {
+        margin-top: -33em;
+        margin-left: 20em;
+        width: 7em;
+        height: 7em;
+    }
+
+    .link_us {
+        width: 51.84em;
+    }
+
+    .link_form {
+        width: 18.85em;
+        margin-top: 6em;
+        margin-left: 28em;
+    }
+
+    .vodie_list {
+        width: 14.7em;
+        margin-left: 1.5em;
+    }
+
+    .right_more {
+        width: 14.7em;
+    }
+
+    .right_play {
+        width: 3.6em;
+        margin-top: -10em;
+        margin-left: 5.5em;
+    }
+
+    .sub_link {
+        width: 6em;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
     }
 }
 
@@ -289,4 +535,77 @@
         margin-left: 1.2em;
         margin-right: 1.2em;
     }
+
+    /*视频详细页*/
+    .titles {
+        width: 37em;
+    }
+    .titles {
+        margin-left: 1.8em;
+    }
+    .video_name {
+        font-size: 1.8em;
+    }
+    .play_v {
+        width: 37em;
+        height: 25em;
+        margin: 1.8em;
+    }
+    .contrs {
+        width: 37em;
+    }
+    .cenplay {
+        margin-top: -30em;
+        margin-left: 16em;
+        width: 6em;
+        height: 6em;
+    }
+    .link_us {
+        width: 40.6em;
+        margin-top: 1.8em;
+    }
+    .link_form {
+        width: 16em;
+        margin-top: 5em;
+        margin-left: 22em;
+    }
+
+    .form-control {
+        height: 25px;
+    }
+
+    .inrow input {
+        font-size: 0.8em;
+    }
+    .sub_link {
+        padding-top: 0.1em;
+        padding-bottom: 0.1em;
+        margin-top: -0.7em;
+    }
+    .form-control-feedback {
+        line-height: 20px;
+    }
+
+    .vodie_list {
+        width: 11em;
+        margin-left: 0.5em;
+    }
+
+    .right_more {
+        width: 11em;
+        font-size: 1.2em;
+    }
+    .more_list {
+        margin-top: 1.35em;
+    }
+    .video_list p {
+        font-size: 1em;
+        margin-left: 1.2em;
+    }
+    .right_play {
+        width: 3em;
+        margin-top: -8.3em;
+        margin-left: 4em;
+    }
+
 }
