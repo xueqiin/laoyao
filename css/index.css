@@ -55,7 +55,6 @@
 
 .search_icon {
     -webkit-transform: rotate(90deg);
-    border: 0.1em dashed #555555;
     margin-top: 0.45em;
     margin-right: 2em;
 }

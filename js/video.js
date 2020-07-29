@@ -121,3 +121,17 @@
     }
 
 }(this, document))
+
+/*上一个视频*/
+// $("#pre").click();
+/*下一个视频*/
+// $("#next").click();
+
+/*预约提交*/
+$("#subyy").click(function () {
+    let name = $("#name").val();
+    let area = $("#area").val();
+    let phone = $("#phone").val();
+    let data={"name":name,"area":area,"phone":phone};
+    // request_https("POST",url,data,callBack);
+});
