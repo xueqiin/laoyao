@@ -1,0 +1,192 @@
+/*price*/
+.tools{
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 4.2em;
+}
+
+.top_title{
+    width: 100%;
+    align-items: center;
+}
+
+.ti_name{
+    font-size:2.57em;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+
+.ti_line{
+    width: 32.7em;
+    height:0.1em;
+    background:rgba(153,153,153,1);
+    margin-top: 1em;
+    margin-bottom: 1.2em;
+    margin-right: 1.1em;
+}
+
+.entitle{;
+    font-size:0.85em;
+    font-family:Arial;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+
+.by,.bjd{
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.by_one{
+    display: inline-block;
+    font-size:1.5em;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    margin-right: 1.35em;
+    letter-spacing: 0.2em;
+    margin-top: 0.38em;
+}
+
+.by_big{
+    display: inline-block;
+    background: rgba(37,159,94,1);
+    padding: 0.2em 0.1em 0.3em 0.6em;
+    font-size: 1.7em;
+    font-weight: 500;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.2em;
+}
+
+.show_by{
+    width: 80.5em;
+    margin-bottom: 5.9em;
+}
+/*报价*/
+.zx{
+    width: 100%;
+    background:rgba(248,248,248,1);
+    justify-content: center;
+}
+
+.bj_box{
+
+}
+
+.bjd{
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+}
+
+.fl_xuan{
+    position: relative;
+    margin-left: 0;
+    background-color: #ffffff;
+    margin-top: 2.6em;
+    width: 21em;
+    z-index: 1;
+}
+
+.fl_xuan p{
+    font-size:1.85em;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    margin-top: 0.3em;
+    margin-left: 0.5em;
+    margin-bottom: 0.3em;
+    letter-spacing: 0.2em;
+}
+
+.fl_xuan h3{
+    font-size:3.6em;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    margin-top: -0.1em;
+    margin-left: 0.3em;
+    margin-bottom: 0.1em;
+    letter-spacing: 0.2em;
+}
+
+.tu{
+    justify-content: space-around;
+}
+
+.tu_one,.tu_two,.tu_three,.tu_four,.tu_five{
+    width: 14.8em;
+
+}
+
+.tu_one div,.tu_two div,.tu_three div,.tu_four div,.tu_five div{
+    width: 100%;
+    background-color: #7676BC;
+    border-radius: 0.5em;
+    text-align: center;
+    color: #ffffff;
+    font-size:2.2em;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+}
+
+.tu_one img,.tu_two img,.tu_three img,.tu_four img,.tu_five img{
+    margin-left: 3.9em;
+}
+
+.tu_one p,.tu_two p,.tu_three p,.tu_four p,.tu_five p{
+    position: relative;
+    font-size:2em;
+    font-family:Arial;
+    font-weight:bold;
+    color:rgba(255,78,78,1);
+    margin-left: 3.3em;
+    margin-top: -1.8em;
+}
+
+.tu_four p {
+    margin-left: 2.9em;
+}
+
+tu_five p {
+    margin-left: 3.4em;
+}
+
+.tu_one div{
+    line-height: 5em;
+}
+.tu_two div{
+    line-height: 7em;
+}
+.tu_three div{
+    line-height: 8.5em;
+}
+.tu_four div{
+    line-height: 10.5em;
+}
+.tu_five div{
+    line-height: 14.5em;
+}
+
+.tu_one{
+    margin-top: 20.8em;
+}
+.tu_two{
+    margin-top: 16.5em;
+}
+.tu_three{
+    margin-top: 13.2em;
+}
+.tu_four{
+    margin-top: 8.8em;
+}
+
+@media screen and (max-width: 1024px) {
+    .show_by {
+        width: 65em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .show_by {
+        width: 50em;
+    }
+}
