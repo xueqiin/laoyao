@@ -15,9 +15,46 @@
 <div id="header" class="nav"></div>
 <!--header_end-->
 <!--banner-->
-<!--<div class="nav" style="height: 800px;">
-
-</div>-->
+<div class="flex_colu nav banner_f">
+    <div class="container flex_colu form_box">
+        <h2 class="f_title">装修预约免费获取报价</h2>
+        <div class="flex_row row form_row">
+            <!--left-->
+            <div class="f_left flex_colu">
+                <h3 class="f_left_title">5秒获取装修报价</h3>
+                <form>
+                    <div class="form-group inrow">
+                        <select type="text" class="form-control input-lg type_s" id="type" name="type">
+                            <option value="0">请选择户型</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </div>
+                    <div class="form-group has-feedback inrow">
+                        <input type="text" class="form-control input-lg" id="area" name="area" placeholder="请输入房屋面积">
+                        <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                    </div>
+                    <div class="form-group inrow">
+                        <input type="text" class="form-control input-lg" id="phone" name="phone" placeholder="请输入手机号码">
+                    </div>
+                </form>
+                <p class="notice">结果将以短信方式发送到您手机</p>
+            </div>
+            <!--left_end-->
+            <!--center-->
+            <div id="yy_btn" class="yy_btn">
+                立即<br/>预约
+            </div>
+            <!--center_end-->
+            <!--right-->
+            <div class="f_right">
+                <img src="images/hand_wx.png" class="mg-responsive img_ie yy_wx" />
+                <p class="wxtis">扫码下载用户端预约装修</p>
+            </div>
+            <!--right_end-->
+        </div>
+    </div>
+</div>
 <!--banner_end-->
 <!--  price  -->
 <div class="container">
@@ -39,6 +76,7 @@
     </div>
 </div>
 <!--  price_end  -->
+
 <!--  zengxiang  -->
 <div class="flex_colu zx">
     <div class="container bj_box">
@@ -60,30 +98,49 @@
                 <img src="images/icon/upbai.png" class="mg-responsive img_ie"/>
                 <p>2%</p>
                 <div>增项</div>
+                <div class="flex_colu icon_tu">
+                    <span>铲墙皮</span>
+                    <img src="images/icon/ct.png" class="mg-responsive img_ie tu_icon"/>
+                </div>
             </div>
 
             <div class="tu_two">
                 <img src="images/icon/upbai.png" class="mg-responsive img_ie"/>
                 <p>5%</p>
                 <div>增项</div>
+                <div class="flex_colu icon_tu">
+                    <span>水电改造</span>
+                    <img src="images/icon/sd.png" class="mg-responsive img_ie tu_icon"/>
+                </div>
             </div>
 
             <div class="tu_three">
                 <img src="images/icon/upbai.png" class="mg-responsive img_ie"/>
                 <p>6%</p>
                 <div>增项</div>
+                <div class="flex_colu icon_tu">
+                    <span>垃圾处理</span>
+                    <img src="images/icon/ljcl.png" class="mg-responsive img_ie tu_icon2"/>
+                </div>
             </div>
 
             <div class="tu_four">
                 <img src="images/icon/upbai.png" class="mg-responsive img_ie"/>
                 <p>15%</p>
                 <div>增项</div>
+                <div class="flex_colu icon_tu">
+                    <span>··· ···</span>
+                </div>
             </div>
 
             <div class="tu_five">
                 <img src="images/icon/upbai.png" class="mg-responsive img_ie"/>
-                <p>···</p>
+                <p>...</p>
                 <div>增项</div>
+                <div class="flex_colu icon_tu">
+                    <span>增项总费用</span>
+                    <img src="images/icon/zxzf.png" class="mg-responsive img_ie tu_icon"/>
+                </div>
             </div>
         </div>
         <!--比对图_end-->
@@ -91,13 +148,73 @@
 </div>
 <!--  zengxiang_end  -->
 
+<!--three-->
+<div class="container">
+    <div class="flex_colu row tools">
+        <!--top_title-->
+        <div class="flex_colu top_title">
+            <h3 class="ti_name">艺人装修网帮您扫去这些烦恼！</h3>
+            <i class="ti_line"></i>
+            <p class="entitle">HELP YOU SOLVE THE PROBLEM</p>
+            <p class="enflog">多份报价  多份参考  精准对比</p>
+        </div>
+        <!--top_title_end-->
+        <!--imgs-->
+        <div class="flex_row three_imgs">
+            <img src="images/three1.png" class="mg-responsive img_ie" />
+            <img src="images/three2.png" class="mg-responsive img_ie" />
+            <img src="images/three3.png" class="mg-responsive img_ie" />
+        </div>
+        <!--midd_title-->
+        <p class="middflog">专业顾问为您答疑解惑</p>
+        <!--last-->
+        <div class="thr_last">
+            <div class="flex_row th_con">
+                <div class="flex_colu t_c_left">
+                    <span>带您详细了解</span>
+                    <span>项目内容与单价</span>
+                </div>
+                <img src="images/icon/three_tel1.png" class="mg-responsive img_ie tel_img"/>
+                <img src="images/icon/tel_y.png" class="mg-responsive img_ie tel"/>
+                <img src="images/icon/tel_y.png" class="mg-responsive img_ie tel_y"/>
+
+                <span class="tel_num">400 0472 080</span>
+            </div>
+        </div>
+
+        <!--bottom_btn-->
+        <button class="getprice">立即免费获取报价单</button>
+    </div>
+</div>
+<!--three_end-->
+
 <!--  foot  -->
 <div id="footer"></div>
 
 <script type="text/javascript" src="bootstrap3/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
-<script type="text/javascript" src="js/footer.js"></script>
+
 <script type="text/javascript" src="js/load.js"></script>
+<script type="text/javascript">
+    $("#yy_btn").click(function () {
+        //获取数据
+        let type = $("#type").val();
+        let area = $("#patner_area").val();
+        let phone = $("#phone").val();
+        if(!check_phone(phone)){
+            alert("电话号码有误！");
+            return false;
+        }
+        //整合提交数据
+        let data = {
+            type:type,
+            area:area,
+            phone:phone
+        }
+        //提交
+        // request_https("POST",url,data,callBack)
+    });
+</script>
 
 </body>
 </html>

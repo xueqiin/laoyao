@@ -129,9 +129,15 @@
 
 /*预约提交*/
 $("#subyy").click(function () {
+    //获取数据
     let name = $("#name").val();
     let area = $("#area").val();
     let phone = $("#phone").val();
-    let data={"name":name,"area":area,"phone":phone};
+    //整合提交数据
+    let data={
+        name:name,
+        area:area,
+        phone:phone
+    };
     // request_https("POST",url,data,callBack);
 });

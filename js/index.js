@@ -1,5 +1,5 @@
 $(function () {
-    // 轮播设置
+    // bootstrap轮播设置
     $("#slidershow").carousel({
         interval: 3000,
         cycle:true
