@@ -17,6 +17,8 @@
     border: 0.14em solid rgba(160, 160, 160, 1);
     border-radius: 1.6em;
     margin-top: 2.8em;
+    width: 60%;
+    margin-left: 20%;
 }
 
 .search_one {
@@ -71,9 +73,14 @@
     align-items: center;
 }
 
-.case_menu, .case_show, .mores {
+.case_show, .mores {
     width: 100%;
     justify-content: space-around;
+}
+
+.case_menu{
+    width: 98%;
+    justify-content: space-between;
 }
 
 .case_item {

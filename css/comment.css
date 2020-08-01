@@ -80,14 +80,15 @@ html, body {
         font-weight: bold;
         color: rgba(51, 51, 51, 1);
         margin-left: 0.7em;
-        line-height: 1.3em;
+        margin-top: 0.86em;
     }
 
     .menu {
         font-size: 1.4em;
         font-weight: 500;
         color: rgba(102, 102, 102, 1);
-        line-height: 4.3em;
+        margin-top: 1.7em;
+        margin-bottom: 1.5em;
     }
 
     .select_menu {
@@ -245,14 +246,15 @@ html, body {
         font-weight: bold;
         color: rgba(51, 51, 51, 1);
         margin-left: 0.7em;
-        line-height: 1.3em;
+        margin-top: 0.86em;
     }
 
     .menu {
         font-size: 1.4em;
         font-weight: 500;
         color: rgba(102, 102, 102, 1);
-        line-height: 4.3em;
+        margin-top: 1.7em;
+        margin-bottom: 1.5em;
     }
 
     .select_menu {
@@ -405,14 +407,15 @@ html, body {
         font-weight: bold;
         color: rgba(51, 51, 51, 1);
         margin-left: 0.7em;
-        line-height: 1.3em;
+        margin-top: 0.86em;
     }
 
     .menu {
         font-size: 1.4em;
         font-weight: 500;
         color: rgba(102, 102, 102, 1);
-        line-height: 4.3em;
+        margin-top: 1.7em;
+        margin-bottom: 1.7em;
     }
 
     .select_menu {
